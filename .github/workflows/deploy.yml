@@ -36,7 +36,7 @@ jobs:
         with:
           source-directory: 'out'
           destination-github-username: 'Meritorium-Knowledge-Academy'
-          destination-repository-name: 'meritorium.github.io'
+          destination-repository-name: 'Meritorium-Knowledge-Academy.github.io'
           target-branch: 'main'
           user-email: actions@github.com
           user-name: GitHub Actions
