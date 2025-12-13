@@ -12,7 +12,10 @@ export const metadata: Metadata = {
   title: "MindSpace - template built with shadcndesign.com",
   description:
     "MindSpace is a modern and clean SaaS shadcn/ui template built with Pro Blocks",
-    generator: 'v0.app'
+  generator: 'v0.app',
+  other: {
+    "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';"
+  }
 };
 
 export default function RootLayout({
