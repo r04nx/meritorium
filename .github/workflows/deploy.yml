@@ -40,3 +40,5 @@ jobs:
           target-branch: 'main'
           user-email: actions@github.com
           user-name: GitHub Actions
+          create-target-branch-if-needed: true
+
