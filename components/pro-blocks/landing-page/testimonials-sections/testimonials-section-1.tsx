@@ -10,10 +10,10 @@ interface TestimonialsSection1Props {
 }
 
 export default function TestimonialsSection1({
-  quote = "Meritorium Knowledge Academy transformed my learning experience. The personalized attention is unmatched.",
-  authorName = "David Park",
-  authorRole = "Engineering Manager at TechCorp",
-  avatarSrc = "/DavidPark.png",
+  quote = "Welcome to Meritorium Knowledge Academy. We are dedicated to providing the best service to every Medical Aspirant and Technology Learner for getting enrolled in diverse programs.",
+  authorName = "Jayant S. Ramteke",
+  authorRole = "Director, Meritorium Knowledge Academy",
+  avatarSrc = "/placeholder-user.jpg",
 }: TestimonialsSection1Props) {
   return (
     <section
