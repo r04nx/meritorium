@@ -11,6 +11,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   output: 'export',
+  basePath: '/meritorium.github.io',
 }
 
 export default nextConfig
