@@ -6,10 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
- 
+
   eslint: {
     ignoreDuringBuilds: true,
   },
+  output: 'export',
 }
 
 export default nextConfig
