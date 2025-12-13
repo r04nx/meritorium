@@ -18,15 +18,15 @@ export function HeroSection2() {
           {/* Section Title */}
           <div className="section-title-gap-xl flex flex-col">
             {/* Tagline */}
-            <Tagline>MindSpace</Tagline>
+            <Tagline>Meritorium Knowledge Academy</Tagline>
             {/* Main Heading */}
             <h1 id="hero-heading" className="heading-xl">
-              Never forget what was said in a meeting again
+              Empowering Minds, Shaping Futures
             </h1>
             {/* Description */}
             <p className="text-muted-foreground text-base lg:text-lg">
-              AI that joins, transcribes, and transforms your meetings into
-              structured knowledge
+              A premier institution dedicated to academic excellence, providing
+              holistic learning and personalized guidance for student success.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Deal progress tracking
+                Expert Faculty Guidance
               </span>
             </div>
 
@@ -46,7 +46,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Customer sentiment analysis
+                Comprehensive Study Material
               </span>
             </div>
 
@@ -55,7 +55,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Automatic CRM updates
+                Personalized Mentorship
               </span>
             </div>
           </div>

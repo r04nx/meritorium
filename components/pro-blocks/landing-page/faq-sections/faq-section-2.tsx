@@ -54,60 +54,44 @@ export function FaqSection2() {
                 {/* FAQ Item 1 */}
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-left">
-                    How does MindSpace join my meetings?
+                    How does enrollment work?
                   </AccordionTrigger>
                   <AccordionContent>
-                    MindSpace automatically joins your scheduled meetings
-                    through calendar integration. Simply connect your calendar
-                    (Google Calendar, Outlook, etc.) and MindSpace will join
-                    meetings at the scheduled time. You can also manually invite
-                    MindSpace to any meeting by adding our bot email to your
-                    meeting participants.
+                    Enrollment is simple. You can register online through our portal or visit our campus.
+                    We offer counseling sessions to help you choose the right course before you sign up.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 2 */}
                 <AccordionItem value="item-2">
                   <AccordionTrigger className="text-left">
-                    What languages does MindSpace support?
+                    What subjects are covered?
                   </AccordionTrigger>
                   <AccordionContent>
-                    MindSpace currently supports English, Spanish, French,
-                    German, Italian, Portuguese, and Japanese. We&apos;re
-                    continuously adding more languages based on user demand. The
-                    AI transcription and analysis work in the primary language
-                    of your meeting, with automatic language detection for
-                    mixed-language conversations.
+                    We cover a wide range of subjects including Mathematics, Sciences, Humanities, and standardized test preparations.
+                    Our curriculum is designed to cater to various academic boards and competitive exams.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 3 */}
                 <AccordionItem value="item-3">
                   <AccordionTrigger className="text-left">
-                    Can I edit or delete meeting transcripts?
+                    Are study materials accessible online?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Yes, you have full control over your meeting transcripts.
-                    You can edit any part of the transcript to correct errors,
-                    add context, or remove sensitive information. You can also
-                    delete entire transcripts or specific sections. All edits
-                    are tracked with timestamps, and you can revert changes at
-                    any time.
+                    Yes, all enrolled students get access to our comprehensive digital library.
+                    You can access recorded lectures, notes, and practice tests 24/7 through our student dashboard.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 4 */}
                 <AccordionItem value="item-4">
                   <AccordionTrigger className="text-left">
-                    How accurate is the AI transcription?
+                    What is the student-to-mentor ratio?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Our AI transcription achieves 95%+ accuracy in ideal
-                    conditions (clear audio, minimal background noise, standard
-                    accents). Accuracy may vary with poor audio quality, heavy
-                    accents, or technical terminology. We continuously improve
-                    our models, and you can always manually edit transcripts for
-                    perfect accuracy.
+                    We maintain a low student-to-mentor ratio to ensure personalized attention.
+                    Typically, it is 15:1 for classroom sessions and 1:1 for personal mentorship programs.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>

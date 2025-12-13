@@ -16,7 +16,7 @@ export default function Page() {
       <HeroSection2 />
       <LogoSection10 />
       <TestimonialsSection1
-        quote="MindSpace is like having a photographic memory for every meeting. We reduced the follow-up emails by 80%."
+        quote="Meritorium Knowledge Academy transformed my learning experience. The personalized attention is unmatched."
         authorName="David Park"
         authorRole="Engineering Manager at TechCorp"
         avatarSrc="/DavidPark.png"

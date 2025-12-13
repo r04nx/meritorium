@@ -9,9 +9,9 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "MindSpace - template built with shadcndesign.com",
+  title: "Meritorium Knowledge Academy - Expanding Knowledge Horizons",
   description:
-    "MindSpace is a modern and clean SaaS shadcn/ui template built with Pro Blocks",
+    "Meritorium Knowledge Academy is a premier institution dedicated to academic excellence and holistic learning.",
   generator: 'v0.app',
   other: {
     "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';"
