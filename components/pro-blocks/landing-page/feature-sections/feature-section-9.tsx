@@ -11,24 +11,23 @@ export function FeatureSection9() {
     >
       <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-          <Tagline>How it works</Tagline>
+          <Tagline>Our Programs</Tagline>
           <h2 className="heading-lg text-foreground">
-            Get started in 2 minutes
+            Advance Your Career
           </h2>
           <p className="text-muted-foreground text-base">
-            Explain in one or two concise sentences how your solution transforms
-            users&apos; challenges into positive outcomes.
+            Industry-oriented certification courses designed to make you job-ready in cutting-edge technologies.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-6 lg:grid-cols-4">
           <div className="flex flex-col items-center gap-5 text-center">
             <div className="bg-background flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border shadow-[0px_0px_0px_4px_rgba(7,46,106,0.05)]">
-              <Plug className="text-primary h-5 w-5" />
+              <BarChart3 className="text-primary h-5 w-5" />
             </div>
             <div className="flex flex-col gap-2">
-              <h3 className="text-foreground font-semibold">1. Connect</h3>
+              <h3 className="text-foreground font-semibold">Data Science</h3>
               <p className="text-muted-foreground">
-                Integrate with Zoom, Teams, Google Meet, or Slack
+                6-Month Certification in Data Science, Analytics, and Machine Learning.
               </p>
             </div>
           </div>
@@ -37,21 +36,9 @@ export function FeatureSection9() {
               <Bot className="text-primary h-5 w-5" />
             </div>
             <div className="flex flex-col gap-2">
-              <h3 className="text-foreground font-semibold">2. Capture</h3>
+              <h3 className="text-foreground font-semibold">AI & Robotics</h3>
               <p className="text-muted-foreground">
-                AI joins and transcribes in real-time as you speak with
-                teammates
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-5 text-center">
-            <div className="bg-background flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border shadow-[0px_0px_0px_4px_rgba(7,46,106,0.05)]">
-              <BarChart3 className="text-primary h-5 w-5" />
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-foreground font-semibold">3. Transform</h3>
-              <p className="text-muted-foreground">
-                Get instant meeting summaries, actions, and insights
+                Master Artificial Intelligence, Deep Learning, and Robotics applications.
               </p>
             </div>
           </div>
@@ -60,9 +47,20 @@ export function FeatureSection9() {
               <TextSearch className="text-primary h-5 w-5" />
             </div>
             <div className="flex flex-col gap-2">
-              <h3 className="text-foreground font-semibold">4. Discover</h3>
+              <h3 className="text-foreground font-semibold">Business Intelligence</h3>
               <p className="text-muted-foreground">
-                Search and connect knowledge across all meetings
+                Specialized workshops and courses on Power BI and Visual Analytics.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col items-center gap-5 text-center">
+            <div className="bg-background flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border shadow-[0px_0px_0px_4px_rgba(7,46,106,0.05)]">
+              <Plug className="text-primary h-5 w-5" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-foreground font-semibold">Corporate Training</h3>
+              <p className="text-muted-foreground">
+                Customized training modules for corporate teams and professionals.
               </p>
             </div>
           </div>
