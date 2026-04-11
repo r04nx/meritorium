@@ -45,6 +45,32 @@ export function StatsSection4() {
 
             <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col items-center gap-4 p-0">
+                <img src="/student-1.jpg" alt="Snehal" className="w-24 h-24 rounded-full object-cover" />
+                <div className="text-center">
+                  <h3 className="text-foreground text-xl font-semibold">Snehal</h3>
+                  <p className="text-primary font-medium">Student</p>
+                  <p className="text-muted-foreground text-sm mt-2">
+                    "Meritorium helped me master Data Science concepts with ease."
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
+              <CardContent className="flex flex-col items-center gap-4 p-0">
+                <img src="/student-2.jpg" alt="Swapnali Janrao" className="w-24 h-24 rounded-full object-cover" />
+                <div className="text-center">
+                  <h3 className="text-foreground text-xl font-semibold">Swapnali Janrao</h3>
+                  <p className="text-primary font-medium">MKC Student</p>
+                  <p className="text-muted-foreground text-sm mt-2">
+                    "The training in Data Science and AI was top-notch. Highly recommended!"
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
+              <CardContent className="flex flex-col items-center gap-4 p-0">
                 <img src="/team-3.jpg" alt="Ashok Wathore" className="w-24 h-24 rounded-full object-cover" />
                 <div className="text-center">
                   <h3 className="text-foreground text-xl font-semibold">Ashok Wathore</h3>

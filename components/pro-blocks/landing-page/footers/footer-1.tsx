@@ -70,25 +70,20 @@ export function Footer1() {
         {/* Bottom Section */}
         <div className="flex w-full flex-col-reverse items-center gap-12 text-sm lg:flex-row lg:justify-between lg:gap-6">
           {/* Copyright Text */}
-          <p className="text-muted-foreground text-center lg:text-left">
-            Built with{" "}
-            <Link
-              href="https://www.shadcndesign.com/pro-blocks"
-              className="underline"
-              target="_blank"
-            >
-              Pro Blocks
-            </Link>{" "}
-            by{" "}
-            <Link
-              href="https://www.shadcndesign.com/"
-              className="underline"
-              target="_blank"
-            >
-              shadcndesign.com
-            </Link>
-            . All rights reserved.
-          </p>
+          {/* Copyright Text */}
+          <div className="flex flex-col items-center gap-2 text-center lg:items-start lg:text-left">
+            <p className="text-muted-foreground">
+              &copy; 2020 Meritorium Knowledge Academy. All Rights Reserved.
+            </p>
+            <p className="text-muted-foreground text-xs">
+              Site Designed and Maintained by Prism Technology
+            </p>
+            <div className="text-muted-foreground text-sm flex flex-col items-center lg:items-start mt-2">
+              <p>Swapnapoorti CHS, Bldg No L-4, Shop No 7, Sector-36, Kharghar, New Mumbai</p>
+              <p>+91 9324764352 / +91 9773690698</p>
+              <a href="mailto:director.meritorium@gmail.com" className="hover:underline">director.meritorium@gmail.com</a>
+            </div>
+          </div>
 
           {/* Legal Navigation */}
           <nav
